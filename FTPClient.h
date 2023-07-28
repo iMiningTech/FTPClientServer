@@ -115,7 +115,7 @@ class FTPClient : public FTPCommon {
                             // possible, +1: connection established
 
   bool waitFor(const int16_t respCode,
-               const char** errorString = nullptr,
+               const char* errorString = nullptr,
                uint32_t timeOut = 10000);
 };
 
